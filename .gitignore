@@ -17,3 +17,6 @@ cloudflared
 # Temporary files
 *.tmp
 *.temp
+
+# Separate Hermes checkout; keep it out of this deployment repository
+hermes-agent/
