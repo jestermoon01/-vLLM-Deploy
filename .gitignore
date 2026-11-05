@@ -1,0 +1,19 @@
+# Local Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and credentials
+.env
+.api_key
+.cf_url
+
+# Runtime logs and downloaded helper binary
+*.log
+*.deb
+cloudflared
+
+# Temporary files
+*.tmp
+*.temp
